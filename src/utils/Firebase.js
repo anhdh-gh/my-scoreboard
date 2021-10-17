@@ -32,8 +32,6 @@ const Firebase = {
                 Firebase.listenToTheChangeOfRulesDB(userInfo?.uid)
             }
             else {
-                const { userInfo } = store.getState()
-                rulesDB.child(userInfo?.uid).off()
                 store.dispatch(removeUserInfo())
                 store.dispatch(removeRule())
             }
