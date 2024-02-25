@@ -1,7 +1,7 @@
 ## Website quản lý và thống kê điểm của các môn học
 
 ## Website
-- https://my-scoreboard.vercel.app
+- https://scoreboard.anhdh.net
 
 ## Công nghệ sử dụng
 - HTML
